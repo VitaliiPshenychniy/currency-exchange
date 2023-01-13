@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currenty Exchange</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Покупка валюти</h1>
+
+      <label class="course">
+        <span class="course__text">Ціна валюти</span>
+        <input class="course__input" type="number" placeholder="*" course />
+      </label>
+
+      <label class="amount">
+        <span class="amount__text">Кількість валюти</span>
+        <input class="amount__input" type="number" placeholder="*" amount />
+      </label>
+
+      <div class="btn-wrapper">
+        <button class="btn-calc btn" type="button">РОЗРАХУНОК</button>
+        <button class="btn-reset btn" type="button">СКИНУТИ</button>
+      </div>
+
+      <p class="total">Вартість покупки</p>
+      <p class="js-output"><span>0</span> грн.</p>
+    </div>
+
+    <script src="./js/currenty-exchange.js"></script>
+  </body>
+</html>
