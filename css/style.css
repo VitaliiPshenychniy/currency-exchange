@@ -62,10 +62,10 @@ h1 {
 
 .btn-wrapper {
   display: flex;
-  flex-direction: column;
+
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 10px;
 }
 
 .btn {
@@ -76,7 +76,7 @@ h1 {
   background-color: transparent;
   border-color: transparent;
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
   outline: none;
 }
 
@@ -86,8 +86,7 @@ h1 {
   background-color: rgba(14, 0, 255, 1);
 }
 
-.btn-calc:focus,
-.btn-calc:hover {
+.btn-calc:active {
   color: rgba(14, 0, 255, 0.8);
   box-shadow: 0 0 20px 10px rgba(14, 0, 255, 1);
   background-color: rgba(245, 255, 0, 1);
@@ -100,8 +99,7 @@ h1 {
   background-color: rgba(245, 255, 0, 1);
 }
 
-.btn-reset:focus,
-.btn-reset:hover {
+.btn-reset:active {
   color: rgba(245, 255, 0, 0.8);
   box-shadow: 0 0 20px 10px rgba(245, 255, 0, 1);
   background-color: rgba(14, 0, 255, 1);
