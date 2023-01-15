@@ -1,14 +1,14 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 95vh;
   padding: 15px;
   background: linear-gradient(0deg, rgb(255, 255, 0) 0%, rgb(0, 0, 255) 100%);
 }
 
 h1 {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 36px;
   line-height: 1.2;
@@ -34,7 +34,7 @@ h1 {
   margin-bottom: 15px;
 }
 .label .text {
-  font-family: 'Sofia+Sans+Condensed', sans-serif;
+  font-family: "Sofia+Sans+Condensed", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -69,7 +69,7 @@ h1 {
   padding-right: 10px;
 }
 .btn-wrapper .btn {
-  font-family: 'Sofia+Sans+Condensed', sans-serif;
+  font-family: "Sofia+Sans+Condensed", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.2;
@@ -82,9 +82,7 @@ h1 {
   background-color: rgb(0, 0, 255);
   box-shadow: 0 0 5px 5px rgb(0, 0, 255);
   color: rgb(255, 255, 0);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-wrapper .btn-reset:active {
   background-color: rgb(255, 255, 0);
@@ -95,9 +93,7 @@ h1 {
   background-color: rgb(255, 255, 0);
   box-shadow: 0 0 5px 5px rgb(255, 255, 0);
   color: rgb(0, 0, 255);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-wrapper .btn-calc:active {
   background-color: rgb(0, 0, 255);
@@ -112,7 +108,7 @@ h1 {
 .result-wrapper .js-output {
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   font-weight: 800;
   font-size: 24px;
@@ -126,4 +122,15 @@ h1 {
   margin-right: auto;
   font-size: 30px;
   border-top: 2px solid rgb(0, 0, 255);
-} /*# sourceMappingURL=style.css.map */
+}
+
+.copyright {
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(0, 0, 255, 0.5);
+  text-align: right;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

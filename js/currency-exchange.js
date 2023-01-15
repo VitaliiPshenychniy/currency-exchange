@@ -9,7 +9,7 @@ const valueMoney = document.querySelector('input[money]');
 
 // Вивід результату
 const outputText = document.querySelector('.total');
-const outputEl = document.querySelector('.js-output span');
+const outputEl = document.querySelector('.js-output');
 
 // Оголошення змінних
 let result = 0;

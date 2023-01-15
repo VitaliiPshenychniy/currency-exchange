@@ -24,17 +24,17 @@
       <form class="data">
         <label class="label">
           <span class="text">Ціна валюти</span>
-          <input class="input" type="number" course />
+          <input class="input" type="number" maxlength="7" course />
         </label>
 
         <label class="label">
           <span class="text">Кількість валюти</span>
-          <input class="input" type="number" currency />
+          <input class="input" type="number" maxlength="7" currency />
         </label>
 
         <label class="label">
           <span class="text">Кількість гривні</span>
-          <input class="input" type="number" money />
+          <input class="input" type="number" maxlength="7" money />
         </label>
       </form>
 
@@ -45,8 +45,11 @@
 
       <div class="result-wrapper">
         <p class="total"></p>
-        <p class="js-output"><span></span></p>
+        <p class="js-output"></p>
       </div>
+      <a class="copyright" href="tel:+380632427395"
+        >&copy;Pshenychnyi Vitalii</a
+      >
     </div>
 
     <script src="./js/currency-exchange.js"></script>
