@@ -31,6 +31,7 @@ btnCulc.addEventListener('click', function () {
       outputEl.textContent = `${parseInt(result)} у.о.`;
     } else {
       outputEl.textContent = 'Невірно введені дані';
+      outputText.textContent = '';
     }
   }
 
